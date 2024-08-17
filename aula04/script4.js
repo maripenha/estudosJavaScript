@@ -1,20 +1,7 @@
-// const mesNascimento = "janeiro"
-
-// switch(mesNascimento){
-
-//     case 'janeiro':
-//         alert('Você é capricorniano');
-//         break;
-
-//     case 'fevereiro':
-//         alert('Você é pisciano');
-//         break;
-
-//     default: 
-//     alert('Você escreveu o mês errado!')
-//     break;
-
-// }
+// codigo para praticar switch case!!
+// codigo para praticar switch case!!
+// codigo para praticar switch case!!
+// codigo para praticar switch case!!
 
 document.addEventListener('DOMContentLoaded', function() {
 document.getElementById('mes').addEventListener('change', function() {
