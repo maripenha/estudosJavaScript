@@ -110,7 +110,7 @@
                         </select><br>
                     </form>
                     
-                    <button onClick="tema()" class="button">Alterar</button>
+                    <button id="botao" class="button">Alterar</button>
                     
                     
                 </div>
@@ -138,11 +138,41 @@
                         
                     </form>
                     
-                    <button onClick="alterarImg()" class="button"> Alterar </button>
+                    <button id="botaos" class="button"> Alterar </button>
                     
                 </div>
                 
             </div>
+
+             <!-- Mudar com cliques -->
+        <div class="container">
+            <div class="content">
+                <button id="umClick" class="button"> Um clique! </button>
+                <button id="doisClick" class="button"> Dois cliques! </button>
+            </div>
+        </div>
+
+        <!-- Mudar com entrada/saida do mouse -->
+        <div class="container">
+            <div id="areaRestrita" class="content">
+                <img src="assets/sirene.gif" width="100px" style="display: none">
+                <h1> Area restrita </h1>
+            </div>
+        </div>
+
+        <!-- Mudar com alteração de texto -->
+        <div class="container">
+            <div class="content">
+               <form> 
+                    <label for="texto">Digite um texto: </label>
+                    <input id="texto" type="text">
+                </form>
+
+                <div>
+                    <h1 id="resposta"> </h1>
+                </div>
+            </div>
+        </div>
             
         </main>
         
