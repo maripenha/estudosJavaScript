@@ -20,8 +20,26 @@ function tabuada(){
     }
 }   
 
+
+function soma(){
+    const valorA = parseFloat(document.querySelector('#valorA').value);
+    const valorB = parseFloat(document.querySelector('#valorB').value);
+
+    const resposta = document.querySelector('#respostaSoma');
+
+    resposta.innerHTML = '';
+
+    if (!isNaN(valorA) && !isNaN(valorB)) {
+        const resultado = valorA + valorB;
+        resposta.innerHTML = `${valorA} + ${valorB} = ${resultado}`;
+    } else {
+        resposta.textContent = 'Insira valores válidos!';
+    }
+}
+
+
 function alterarCor(){
-    const cor = document.querySelector('#cor').value
+    const cor = document.querySelector('#cor').value;
     const body = document.querySelector('body');
 
     body.style.backgroundColor = `${cor}`
