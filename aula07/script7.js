@@ -66,4 +66,8 @@ buttonVariar.addEventListener('click', variar)
 
 // jokenpo
 
+const tesoura = document.querySelector('#tesoura');
+const papel = document.querySelector('#papel');
+const pedra = document.querySelector('#pedra');
+
 
